@@ -1,0 +1,9 @@
+C:\Danilo\ByteBank-core\ByteBank.Modelos\obj\Debug\netstandard2.0\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Danilo\ByteBank-core\ByteBank.Modelos\obj\Debug\netstandard2.0\ByteBank.Modelos.AssemblyInfoInputs.cache
+C:\Danilo\ByteBank-core\ByteBank.Modelos\obj\Debug\netstandard2.0\ByteBank.Modelos.AssemblyInfo.cs
+C:\Danilo\ByteBank-core\ByteBank.Modelos\bin\Debug\netstandard2.0\ByteBank.Modelos.deps.json
+C:\Danilo\ByteBank-core\ByteBank.Modelos\bin\Debug\netstandard2.0\ByteBank.Modelos.dll
+C:\Danilo\ByteBank-core\ByteBank.Modelos\bin\Debug\netstandard2.0\ByteBank.Modelos.pdb
+C:\Danilo\ByteBank-core\ByteBank.Modelos\obj\Debug\netstandard2.0\ByteBank.Modelos.dll
+C:\Danilo\ByteBank-core\ByteBank.Modelos\obj\Debug\netstandard2.0\ByteBank.Modelos.pdb
+C:\Danilo\ByteBank-core\ByteBank.Modelos\obj\Debug\netstandard2.0\ByteBank.Modelos.csprojAssemblyReference.cache

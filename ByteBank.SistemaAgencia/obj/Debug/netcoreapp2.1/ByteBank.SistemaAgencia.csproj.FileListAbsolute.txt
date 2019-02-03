@@ -1,0 +1,13 @@
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.deps.json
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.runtimeconfig.json
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.runtimeconfig.dev.json
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.dll
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.pdb
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.AssemblyInfoInputs.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.AssemblyInfo.cs
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.dll
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.pdb
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.Modelos.dll
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.Modelos.pdb
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.csprojResolveAssemblyReference.cache
