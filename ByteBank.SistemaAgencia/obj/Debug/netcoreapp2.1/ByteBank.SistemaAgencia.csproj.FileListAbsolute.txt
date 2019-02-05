@@ -10,4 +10,5 @@ C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank
 C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.pdb
 C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.Modelos.dll
 C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\bin\Debug\netcoreapp2.1\ByteBank.Modelos.pdb
-C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.csprojResolveAssemblyReference.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.csprojAssemblyReference.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaAgencia\obj\Debug\netcoreapp2.1\ByteBank.SistemaAgencia.csproj.CopyComplete
