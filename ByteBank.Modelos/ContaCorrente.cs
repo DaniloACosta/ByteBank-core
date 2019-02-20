@@ -2,6 +2,9 @@ using System;
 
 namespace ByteBank.Modelos
 {
+    /// <summary>
+    /// Define uma Conta Corrente do banco ByteBank.
+    /// </summary>
     public class ContaCorrente
     {
          private static int TaxaOperacao;
@@ -34,6 +37,11 @@ namespace ByteBank.Modelos
             }
         }
 
+        /// <summary>
+        /// Cria uma instância de ContaCorrente com os argumentos utilizados;
+        /// </summary>
+        /// <param name="agencia">Representa o valor da proprieddae <see cref="Agencia"/> e deve possuir um valor maior que zero.</param>
+        /// <param name="numero">Representa o valor da proprieddae <see cref="Numero"/> e deve possuir um valor maior que zero.</param>
         public ContaCorrente(int agencia, int numero)
         {
             if (numero <= 0)
@@ -52,21 +60,26 @@ namespace ByteBank.Modelos
             TotalDeContasCriadas++;
             TaxaOperacao = 30 / TotalDeContasCriadas;
         }
-
-        public void Sacar(double valor)
+        /// <summary>
+        /// Realiza o saque e atualiza o valor da da propriedade <see cref="Saldo"/>
+        /// </summary>
+        /// <exception cref="ArgumentException">Exceção lançada quando um valor negativo é ultilizado no argumento <see cref="Saldo"/></exception>
+        /// <exception cref="SaldoInsuficienteException">Exceção lançada quando um valor negativo é ultilizado no argumento <paramref name="valorSacar"/> </exception>
+        /// <param name="valorSacar">Representa o valor do saque, deve ser maior que 0 e menor que <see cref="Saldo"/>.</param>    
+        public void Sacar(double valorSacar)
         {
-            if (valor < 0)
+            if (valorSacar < 0)
             {
-                throw new ArgumentException("Valor inválido para o saque.", nameof(valor));
+                throw new ArgumentException("Valor inválido para o saque.", nameof(valorSacar));
             }
 
-            if (_saldo < valor)
+            if (_saldo < valorSacar)
             {
                 ContadorSaquesNaoPermitidos++;
-                throw new SaldoInsuficienteException(Saldo, valor);
+                throw new SaldoInsuficienteException(Saldo, valorSacar);
             }
 
-            _saldo -= valor;
+            _saldo -= valorSacar;
         }
 
         public void Depositar(double valor)

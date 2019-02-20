@@ -1,0 +1,15 @@
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.deps.json
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.runtimeconfig.json
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.runtimeconfig.dev.json
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.dll
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.pdb
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.Modelos.dll
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.csprojAssemblyReference.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.csproj.CoreCompileInputs.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.AssemblyInfoInputs.cache
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.AssemblyInfo.cs
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.csproj.CopyComplete
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.dll
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.pdb
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.xml
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.Modelos.xml
