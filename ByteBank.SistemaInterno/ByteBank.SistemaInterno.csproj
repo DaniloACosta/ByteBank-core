@@ -1,14 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.5.16" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="MyAssembly">
       <HintPath>C:\Danilo\ByteBank-core\Library\ByteBank.Modelos.dll</HintPath>
     </Reference>
   </ItemGroup>
-
+  
 </Project>

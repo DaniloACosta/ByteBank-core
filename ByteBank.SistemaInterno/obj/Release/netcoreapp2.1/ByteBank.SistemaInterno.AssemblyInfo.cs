@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ByteBank.SistemaAgencia")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ByteBank.SistemaInterno")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ByteBank.SistemaAgencia")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ByteBank.SistemaAgencia")]
+[assembly: System.Reflection.AssemblyProductAttribute("ByteBank.SistemaInterno")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ByteBank.SistemaInterno")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
