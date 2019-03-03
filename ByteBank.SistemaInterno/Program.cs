@@ -10,6 +10,19 @@ namespace ByteBank.SistemaInterno
     {
         static void Main(string[] args)
         {
+            string url = "moedaOrigem=real&moedaDestino=dolar";
+
+            ExtratorValorDeArgumentosURL extrairURl = new ExtratorValorDeArgumentosURL(url);
+
+            Console.WriteLine(extrairURl.getValor("moedaOrigem"));
+
+            //Console.WriteLine(url.Substring(url.IndexOf("?")+1));
+
+            
+        }
+
+        private static void TrabalhandoComHora()
+        {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US", false);
             DateTime dataFim = new DateTime(2019, 02, 23);
             DateTime dataNow = DateTime.Now;
@@ -17,7 +30,7 @@ namespace ByteBank.SistemaInterno
             String mensagem = "A fatura vence em " + TimeSpanHumanizeExtensions.Humanize(diferencaData, 1, new CultureInfo("es-MX", false));
             Console.WriteLine(mensagem);
 
-            if(0 == 1)
+            if (0 == 1)
                 GerenciamentoConta();
         }
 
