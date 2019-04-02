@@ -11,23 +11,6 @@ namespace ByteBank.SistemaInterno {
     class Program {
         static void Main (string[] args)
         {
-            ListaDeContaCorrente listaContaCorrente = new ListaDeContaCorrente();
-
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-
-
-            Console.WriteLine($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
-        }
-
-        private static void CriadoArrays()
-        {
             int[] idades = new int[]{
                 1,
                 2,
