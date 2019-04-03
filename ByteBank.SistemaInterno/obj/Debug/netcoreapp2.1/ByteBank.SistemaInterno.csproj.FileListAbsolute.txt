@@ -13,3 +13,4 @@ C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank
 C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\obj\Debug\netcoreapp2.1\ByteBank.SistemaInterno.pdb
 C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.SistemaInterno.xml
 C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.Modelos.xml
+C:\Danilo\ByteBank-core\ByteBank.SistemaInterno\bin\Debug\netcoreapp2.1\ByteBank.Modelos.pdb

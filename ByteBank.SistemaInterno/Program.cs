@@ -12,16 +12,18 @@ namespace ByteBank.SistemaInterno {
         static void Main (string[] args)
         {
             ListaDeContaCorrente listaContaCorrente = new ListaDeContaCorrente();
+            ContaCorrente danilo = new ContaCorrente(1, 1006);
 
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-            listaContaCorrente.Adicionar(new ContaCorrente(123, 1006));
-
+            listaContaCorrente.Add(danilo);
+            listaContaCorrente.Add(new ContaCorrente(2, 1006));
+            listaContaCorrente.Add(new ContaCorrente(3, 1006));
+            listaContaCorrente.Add(new ContaCorrente(4, 1006));
+            listaContaCorrente.Add(new ContaCorrente(5, 1006));
+            listaContaCorrente.Add(new ContaCorrente(6, 1006));
+            listaContaCorrente.PrintContaCorrente();
+            System.Console.WriteLine("Apagar");
+            listaContaCorrente.Remove(danilo);
+            listaContaCorrente.PrintContaCorrente();
 
             Console.WriteLine($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
         }
