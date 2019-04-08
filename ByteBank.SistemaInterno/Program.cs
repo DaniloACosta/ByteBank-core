@@ -12,20 +12,38 @@ namespace ByteBank.SistemaInterno {
         static void Main (string[] args)
         {
             ListaDeContaCorrente listaContaCorrente = new ListaDeContaCorrente();
-            ContaCorrente danilo = new ContaCorrente(1, 1006);
 
-            listaContaCorrente.Add(danilo);
-            listaContaCorrente.Add(new ContaCorrente(2, 1006));
-            listaContaCorrente.Add(new ContaCorrente(3, 1006));
-            listaContaCorrente.Add(new ContaCorrente(4, 1006));
-            listaContaCorrente.Add(new ContaCorrente(5, 1006));
-            listaContaCorrente.Add(new ContaCorrente(6, 1006));
+            ContaCorrente danilo = new ContaCorrente(1, 1006);
+            
+            listaContaCorrente.AddAll(
+                danilo, 
+                new ContaCorrente(2, 1006),
+                new ContaCorrente(2, 1006),
+                new ContaCorrente(3, 1006),
+                new ContaCorrente(4, 1006),
+                new ContaCorrente(5, 1006),
+                new ContaCorrente(6, 1006)
+            );
+
+            for (int i = 0; i < listaContaCorrente.getSizeArray; i++)
+            {
+                ContaCorrente conta = listaContaCorrente[i];
+                System.Console.WriteLine($"Conta na posição {i} Conta: {conta.Numero} / Agencia: {conta.Agencia}.");
+            }
+
+            Console.WriteLine($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
+        }
+
+        private static void ApagarContasCorrente(ListaDeContaCorrente listaContaCorrente, ContaCorrente danilo)
+        {
             listaContaCorrente.PrintContaCorrente();
             System.Console.WriteLine("Apagar");
             listaContaCorrente.Remove(danilo);
             listaContaCorrente.PrintContaCorrente();
+        }
 
-            Console.WriteLine($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
+        private static void ApgandoConta(){
+
         }
 
         private static void CriadoArrays()
