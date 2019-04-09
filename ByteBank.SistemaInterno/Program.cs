@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
@@ -9,55 +10,44 @@ using Humanizer;
 
 namespace ByteBank.SistemaInterno {
     class Program {
-        static void Main (string[] args)
-        {
-            List<ContaCorrente> listaContaCorrente = new List<ContaCorrente>();
+        static void Main (string[] args) {
+            List<int> number = new List<int> () {
+                1,
+                2,
+                3,
+                5,
+                6
+            };
 
-            ContaCorrente danilo = new ContaCorrente(1, 1006);
-
-            listaContaCorrente.AddAll(
-                danilo,
-                new ContaCorrente(2, 1006),
-                new ContaCorrente(2, 1006),
-                new ContaCorrente(3, 1006),
-                new ContaCorrente(4, 1006),
-                new ContaCorrente(5, 1006),
-                new ContaCorrente(6, 1006)
-            );
-
-            for (int i = 0; i < listaContaCorrente.getSizeArray; i++)
-            {
-                ContaCorrente conta = listaContaCorrente[i];
-                System.Console.WriteLine($"Conta na posição {i} Conta: {conta.Numero} / Agencia: {conta.Agencia}.");
+            number.AddAll(7, 6, 5, 8);
+   
+            foreach (var item in number) {
+                Console.WriteLine (item);
             }
 
-            Console.WriteLine($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
-            
-        }
+        }   
 
-        private static void ListaDeContas()
-        {
-            ListaDeContaCorrente listaContaCorrente = new ListaDeContaCorrente();
+        private static void ListaDeContas () {
+            ListaDeContaCorrente listaContaCorrente = new ListaDeContaCorrente ();
 
-            ContaCorrente danilo = new ContaCorrente(1, 1006);
+            ContaCorrente danilo = new ContaCorrente (1, 1006);
 
-            listaContaCorrente.AddAll(
+            listaContaCorrente.AddAll (
                 danilo,
-                new ContaCorrente(2, 1006),
-                new ContaCorrente(2, 1006),
-                new ContaCorrente(3, 1006),
-                new ContaCorrente(4, 1006),
-                new ContaCorrente(5, 1006),
-                new ContaCorrente(6, 1006)
+                new ContaCorrente (2, 1006),
+                new ContaCorrente (2, 1006),
+                new ContaCorrente (3, 1006),
+                new ContaCorrente (4, 1006),
+                new ContaCorrente (5, 1006),
+                new ContaCorrente (6, 1006)
             );
 
-            for (int i = 0; i < listaContaCorrente.getSizeArray; i++)
-            {
+            for (int i = 0; i < listaContaCorrente.getSizeArray; i++) {
                 ContaCorrente conta = listaContaCorrente[i];
-                System.Console.WriteLine($"Conta na posição {i} Conta: {conta.Numero} / Agencia: {conta.Agencia}.");
+                System.Console.WriteLine ($"Conta na posição {i} Conta: {conta.Numero} / Agencia: {conta.Agencia}.");
             }
 
-            Console.WriteLine($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
+            Console.WriteLine ($"Tamanho do Array: {listaContaCorrente.getIndexSize()}");
         }
 
         private static void ApagarContasCorrente (ListaDeContaCorrente listaContaCorrente, ContaCorrente danilo) {
