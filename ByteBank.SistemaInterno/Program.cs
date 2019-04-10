@@ -6,6 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using ByteBank.Modelos;
+using ByteBank.SistemaInterno.Extension;
 using Humanizer;
 
 namespace ByteBank.SistemaInterno {
@@ -24,6 +25,8 @@ namespace ByteBank.SistemaInterno {
             foreach (var item in number) {
                 Console.WriteLine (item);
             }
+
+
 
         }   
 
