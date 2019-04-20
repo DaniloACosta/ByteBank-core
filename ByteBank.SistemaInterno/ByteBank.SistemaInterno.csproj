@@ -11,7 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MyAssembly">
-      <HintPath>C:\Danilo\ByteBank-core\Library\ByteBank.Modelos.dll</HintPath>
+      <HintPath>C:\Danilo\ByteBank-core\ByteBank.Modelos\bin\Debug\netstandard2.0\ByteBank.Modelos.dll</HintPath>
     </Reference>
   </ItemGroup>
   

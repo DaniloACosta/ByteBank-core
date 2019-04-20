@@ -5,7 +5,7 @@ namespace ByteBank.Modelos
     /// <summary>
     /// Define uma Conta Corrente do banco ByteBank.
     /// </summary>
-    public class ContaCorrente
+    public class ContaCorrente : IComparable
     {
          private static int TaxaOperacao;
 
@@ -120,6 +120,21 @@ namespace ByteBank.Modelos
             // TODO: write your implementation of Equals() here
             
             return Agencia == conta.Agencia && Numero == conta.Numero;
+        }
+
+        public int CompareTo(object obj)
+        {
+            ContaCorrente otherAccount = obj as ContaCorrente;
+            // return -1 when will be smaller
+            if(otherAccount.Numero == null || Numero < otherAccount.Numero){
+                return -1;
+            }
+            // return 0 when will be equal
+            if(Numero == otherAccount.Numero){
+                return 0;
+            }
+            // return 1 when will be bigger
+            return 1;
         }
     }
 }

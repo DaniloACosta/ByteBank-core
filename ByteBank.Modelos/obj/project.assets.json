@@ -179,7 +179,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\daniloc\\.nuget\\packages\\": {},
+    "C:\\Users\\danil\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -188,21 +188,22 @@
       "projectUniqueName": "C:\\Danilo\\ByteBank-core\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
       "projectName": "ByteBank.Modelos",
       "projectPath": "C:\\Danilo\\ByteBank-core\\ByteBank.Modelos\\ByteBank.Modelos.csproj",
-      "packagesPath": "C:\\Users\\daniloc\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
       "outputPath": "C:\\Danilo\\ByteBank-core\\ByteBank.Modelos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\daniloc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "http://nuget.dev.me.com.br/nuget": {},
-        "https://nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
