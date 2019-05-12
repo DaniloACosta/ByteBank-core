@@ -22,7 +22,7 @@ namespace ByteBank.ImportacaExportacao.Models
                 throw new ArgumentException("Valor de deposito deve ser maior que zero.", nameof(value));
             }
 
-            Balance += Balance;
+            Balance += value;
         }
 
         public void CashOut(double value)
