@@ -10,8 +10,57 @@ namespace ByteBank.ImportacaExportacao
     {
         static void Main(string[] args)
         {
+            var nome = Console.ReadLine();
+            Console.WriteLine(nome);
+            var stringFile = File.ReadAllLines(@"C:\Users\danil\source\repos\ByteBank-core\ByteBank.ImportacaExportacao\Persistence\contas.txt");
+            foreach (var item in stringFile)
+            {
+                Console.WriteLine(item);    
+            }
+
+            File.WriteAllText(@"C:\Users\danil\source\repos\ByteBank-core\ByteBank.ImportacaExportacao\Persistence\contas.txt", "My name is Danilo");
+        }
+
+        private static void WorkingStreamWithFlush()
+        {
+            var addressFile = @"C:\Users\danil\source\repos\ByteBank-core\ByteBank.ImportacaExportacao\Persistence\teste.txt";
+            using (var flowByFile = new FileStream(addressFile, FileMode.Create))
+            using (var writeFile = new StreamWriter(flowByFile))
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    var messageWrite = $"Linha {i}";
+                    writeFile.WriteLine(messageWrite);
+                    Console.WriteLine(messageWrite);
+                    writeFile.Flush();
+                    Console.ReadLine();
+                }
+            }
+        }
+
+        private static void WorkingWithFlush()
+        {
+            var addressFile = @"C:\Users\danil\source\repos\ByteBank-core\ByteBank.ImportacaExportacao\Persistence\teste.txt";
+            using (var flowByFile = new FileStream(addressFile, FileMode.Create))
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    var messageWrite = $"Linha {i} \n";
+                    var encodingUTF8 = new UTF8Encoding();
+                    var buffer = encodingUTF8.GetBytes(messageWrite);
+
+                    flowByFile.Write(buffer, 0, buffer.Length);
+                    //flowByFile.Flush();
+                    Console.WriteLine(messageWrite);
+                    Console.ReadLine();
+                }
+            }
+        }
+
+        private static void WorkingStreamWithStream()
+        {
             var addressFile = @"C:\Users\danil\source\repos\ByteBank-core\ByteBank.ImportacaExportacao\Persistence\Account.csv";
-            var MessageWrite = "53,0098,1000.20,Pedro";
+            var MessageWrite = "53,0098;1000.20;Pedro";
 
             using (var flowByFile = new FileStream(addressFile, FileMode.Create))
             using (var writeFile = new StreamWriter(flowByFile))
